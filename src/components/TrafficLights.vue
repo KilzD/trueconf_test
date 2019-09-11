@@ -46,7 +46,6 @@
             let colorChanged = false;
 
             setTimeout(function () {
-                    console.log("color: " + scope_color);
                     setInterval(function () {
                         if (colorChanged) {
                             document.getElementById(scope_colors[scope_color - 1]).style.backgroundColor = scope_colors[scope_color - 1];
